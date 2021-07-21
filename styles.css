@@ -68,7 +68,7 @@ header {
 header .profile-image {
   margin-top: 50px;
   width: 190px;
-  height: 290px;
+  height: 300px;
   border-radius: 20%;
   border: 3px solid white;
   transition: all .5s;
@@ -88,6 +88,7 @@ header .profile-image:hover {
   background-color: #222;
   color: whiteyellow;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -99,10 +100,45 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #04eeff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6633ff;
+}
+
+.contact {
+  margin: 5%;
+  padding: 20px 40px 40px;
+  max-width: 100%;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+
 .heading_1 {
   text-shadow: 2px 2px #ccc;  
 }
-
 
 
 .card:hover {
