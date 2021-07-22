@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.director {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -89,7 +89,7 @@ header .profile-image:hover {
   color: white;
 }
 
-.card {
+.block {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
